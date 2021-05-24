@@ -7,4 +7,7 @@ let message5 = `“If people are doubting how far you can go, go so far that you
 let inspoMessages = [message1, message2, message3, message4,message5];
 let chosenMessage = inspoMessages[Math.floor(Math.random() * 5)];
 
+console.log("Welcome to the Message Portal!");
+console.log("Today's Quote of The Day:")
 console.log(chosenMessage);
+console.log("Have a lovely day!")
